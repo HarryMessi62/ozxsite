@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-lg">C</span>
+                <span className="text-white font-bold text-lg">O</span>
               </div>
-              <span className="text-xl font-bold text-gray-900">CryptoLight</span>
+              <span className="text-xl font-bold text-gray-900">OZX.Info</span>
             </div>
             <p className="text-gray-600 text-sm">
               Your reliable source for cryptocurrency and blockchain news.
@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-gray-400" />
-                <span className="text-gray-600 text-sm">info@cryptolight.com</span>
+                <span className="text-gray-600 text-sm">info@ozx.info</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-gray-400" />
@@ -125,7 +125,7 @@ const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm">
-              © 2024 CryptoLight. All rights reserved.
+              © 2024 OZX.Info. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="/privacy" className="text-gray-500 hover:text-blue-600 transition-colors text-sm">

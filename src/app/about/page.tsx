@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us – CryptoLight',
-  description: 'Learn more about the CryptoLight team and our mission to make cryptocurrency news accessible to everyone',
+  title: 'About Us – OZX.Info',
+  description: 'Learn more about the OZX.Info team and our mission to make cryptocurrency news accessible to everyone',
 };
 
 export default function AboutPage() {
@@ -11,7 +11,7 @@ export default function AboutPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            About CryptoLight
+            About OZX.Info
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Your trusted source for cryptocurrency news and analysis. We make complex blockchain topics simple and accessible.
@@ -52,7 +52,7 @@ export default function AboutPage() {
 
         <div className="bg-gray-50 rounded-2xl p-8 mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-            Why Choose CryptoLight?
+            Why Choose OZX.Info?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="flex items-start">

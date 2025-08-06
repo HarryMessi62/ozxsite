@@ -1,8 +1,8 @@
 import { Mail, Phone, MapPin, Clock, Globe } from 'lucide-react';
 
 export const metadata = {
-  title: 'Contact Us - CryptoLight',
-  description: 'Get in touch with the CryptoLight team for any questions or collaboration opportunities.',
+  title: 'Contact Us - OZX.Info',
+  description: 'Get in touch with the OZX.Info team for any questions or collaboration opportunities.',
 };
 
 export default function ContactsPage() {
@@ -11,14 +11,14 @@ export default function ContactsPage() {
       city: 'London',
       address: '123 Fintech Street, London EC2A 4NE',
       phone: '+44 20 1234 5678',
-      email: 'london@cryptolight.com',
+      email: 'london@ozx.info',
       hours: 'Mon-Fri: 9:00 AM - 6:00 PM GMT'
     },
     {
       city: 'Singapore',
       address: '456 Crypto Tower, Singapore 018936',
       phone: '+65 6789 0123',
-      email: 'singapore@cryptolight.com',
+      email: 'singapore@ozx.info',
       hours: 'Mon-Fri: 9:00 AM - 6:00 PM SGT'
     }
   ];
@@ -26,17 +26,17 @@ export default function ContactsPage() {
   const departments = [
     {
       name: 'Media Inquiries',
-      email: 'press@cryptolight.com',
+      email: 'press@ozx.info',
       response: '24 hours'
     },
     {
       name: 'Business Development',
-      email: 'business@cryptolight.com',
+      email: 'business@ozx.info',
       response: '48 hours'
     },
     {
       name: 'Technical Support',
-      email: 'support@cryptolight.com',
+      email: 'support@ozx.info',
       response: '12 hours'
     }
   ];

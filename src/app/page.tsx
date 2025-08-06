@@ -7,7 +7,7 @@ import { articlesAPI } from '@/services/api';
 export const revalidate = 600;
 
 export const metadata = {
-  title: 'CryptoLight – Cryptocurrency News and Analysis',
+  title: 'OZX.Info – Cryptocurrency News and Analysis',
   description: 'Get the latest information about cryptocurrencies, blockchain technology, and digital assets from leading industry experts.',
 };
 
@@ -244,7 +244,7 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Choose CryptoLight
+              Why Choose OZX.Info
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Stay informed with the latest cryptocurrency news and analysis from trusted experts

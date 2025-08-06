@@ -11,30 +11,30 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'CryptoLight - Cryptocurrency News',
+  title: 'OZX.Info - Cryptocurrency News',
   description: 'Latest news about cryptocurrencies, blockchain technology, and digital assets',
   keywords: 'cryptocurrency, bitcoin, blockchain, news, analysis',
-  authors: [{ name: 'CryptoLight Team' }],
+  authors: [{ name: 'OZX.Info Team' }],
   robots: 'index, follow',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: process.env.NEXT_PUBLIC_SITE_URL,
-    siteName: 'CryptoLight',
-    title: 'CryptoLight - Cryptocurrency News',
+    siteName: 'OZX.Info',
+    title: 'OZX.Info - Cryptocurrency News',
     description: 'Latest news about cryptocurrencies, blockchain technology, and digital assets',
     images: [
       {
         url: `${process.env.NEXT_PUBLIC_SITE_URL}/og-image.jpg`,
         width: 1200,
         height: 630,
-        alt: 'CryptoLight - Cryptocurrency News'
+        alt: 'OZX.Info - Cryptocurrency News'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'CryptoLight - Cryptocurrency News',
+    title: 'OZX.Info - Cryptocurrency News',
     description: 'Latest news about cryptocurrencies, blockchain technology, and digital assets',
     images: [`${process.env.NEXT_PUBLIC_SITE_URL}/og-image.jpg`],
   }
