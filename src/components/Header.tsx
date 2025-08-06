@@ -27,8 +27,8 @@ export default function Header() {
         <div className="w-full py-6 flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-blue-600">Crypto</span>
-              <span className="text-2xl font-bold text-gray-900">Light</span>
+              <span className="text-2xl font-bold text-blue-600">OZX</span>
+              <span className="text-2xl font-bold text-gray-900">.Info</span>
             </Link>
           </div>
 
