@@ -67,7 +67,7 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              <span className="text-blue-600">Crypto</span>Light
+              <span className="text-blue-600">OZX</span>.Info
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Your trusted source for cryptocurrency news, analysis, and insights. Stay informed about the latest developments in the digital asset space.
