@@ -138,7 +138,7 @@ export default async function HomePage() {
             <div className="lg:col-span-4 space-y-6">
               {secondaryFeatured.map((article) => (
                 <Link key={article._id} href={`/article/${article.slug}`}>
-                  <div className="group relative rounded-xl overflow-hidden aspect-[16/9]">
+                  <div className="group relative rounded-xl overflow-hidden aspect-[16/9] mb-4">
                     {article.media?.featuredImage && (
                       <img
                         src={article.media.featuredImage.url}
